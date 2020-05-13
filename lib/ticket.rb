@@ -5,7 +5,7 @@ class Ticket
     @fare = fare
   end
 
-  def stamp(name)
+  def stamp(name) #乗車駅を取得する
     @stamped_at = name
   end
 end
